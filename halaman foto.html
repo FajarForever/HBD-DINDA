@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Little Gallery 📸</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main class="page-wrap">
+    <p class="eyebrow">LITTLE PIECES OF HAPPINESS</p>
+    <h1 class="page-title">A Gallery <span>For You ♡</span></h1>
+    <p class="subtitle">Beberapa foto untuk menyimpan momen yang berharga.</p>
+
+    <section class="photo-grid">
+      <figure class="polaroid">
+        <img src="images/foto1.jpg" alt="Kenangan Dinda pertama"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="photo-placeholder"><span>♡</span>Foto 1</div>
+        <figcaption>Pretty little moment ✨</figcaption>
+      </figure>
+
+      <figure class="polaroid tilt-left">
+        <img src="images/foto2.jpg" alt="Kenangan Dinda kedua"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="photo-placeholder"><span>♡</span>Foto 2</div>
+        <figcaption>A memory to keep 🌷</figcaption>
+      </figure>
+
+      <figure class="polaroid tilt-right">
+        <img src="images/foto3.jpg" alt="Kenangan Dinda ketiga"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="photo-placeholder"><span>♡</span>Foto 3</div>
+        <figcaption>Always worth remembering 💗</figcaption>
+      </figure>
+    </section>
+
+    <section class="music-card">
+      <div class="music-icon">♫</div>
+      <div>
+        <strong>A little birthday soundtrack</strong>
+        <p>Putar lagu sambil menikmati halaman ini.</p>
+      </div>
+      <audio controls preload="metadata">
+        <source src="music/lagu.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung pemutar audio.
+      </audio>
+    </section>
+
+    <nav class="page-nav">
+      <a class="btn btn-light" href="surat.html">← Baca surat lagi</a>
+      <a class="btn btn-primary" href="penutup.html">Satu kejutan lagi →</a>
+    </nav>
+  </main>
+</body>
+</html>
